@@ -1,0 +1,651 @@
+2016-03-18 22:25:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:25:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:26:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:26:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:31:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:31:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:33:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:33:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:34:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:34:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:36:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 22:36:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-18 23:17:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-190]
+2016-03-18 23:55:17 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                     INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+/* insert com.LetsGetDigital.model.SearchCriteria */ insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-18 23:55:17 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                     INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+/* insert com.LetsGetDigital.model.SearchCriteria */ insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-18 23:59:29 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                     INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+/* insert com.LetsGetDigital.model.SearchCriteria */ insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-18 23:59:29 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                     INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+/* insert com.LetsGetDigital.model.SearchCriteria */ insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:02:49 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                     INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+/* insert com.LetsGetDigital.model.SearchCriteria */ insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:02:49 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                     INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+/* insert com.LetsGetDigital.model.SearchCriteria */ insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:06:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:06:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:10:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:10:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:17:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-190]
+2016-03-19 00:17:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-190]
+2016-03-19 00:19:06 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                     INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+/* insert com.LetsGetDigital.model.SearchCriteria */ insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:19:06 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                     INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+/* insert com.LetsGetDigital.model.SearchCriteria */ insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:21:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:21:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:22:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:22:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:23:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:23:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:37:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:37:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:38:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 00:38:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 01:04:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], PICKUPTIME, TO) VALUES (NULL, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, pickUpTime, to) values (null, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 01:04:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], PICKUPTIME, TO) VALUES (NULL, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, pickUpTime, to) values (null, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 01:09:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], PICKUPTIME) VALUES (NULL, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, pickUpTime) values (null, ?, ?, ?, ?) [42001-190]
+2016-03-19 01:09:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], PICKUPTIME) VALUES (NULL, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, pickUpTime) values (null, ?, ?, ?, ?) [42001-190]
+2016-03-19 01:19:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 01:19:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO SEARCHCRITERIA (ID, COUNTRYOFRESIDENCE, DROPOFFTIME, FROM[*], FROMDATE, PICKUPTIME, TO, TODATE) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?) "; expected "identifier"; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, from, fromDate, pickUpTime, to, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42001-190]
+2016-03-19 01:23:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "DROPPOFFLOCATION" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, pickupLocation, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42122-190]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:660)
+	at org.h2.command.Parser.parseColumn(Parser.java:855)
+	at org.h2.command.Parser.parseColumnList(Parser.java:839)
+	at org.h2.command.Parser.parseInsert(Parser.java:1039)
+	at org.h2.command.Parser.parsePrepared(Parser.java:400)
+	at org.h2.command.Parser.parse(Parser.java:304)
+	at org.h2.command.Parser.parse(Parser.java:276)
+	at org.h2.command.Parser.prepareCommand(Parser.java:241)
+	at org.h2.engine.Session.prepareLocal(Session.java:460)
+	at org.h2.engine.Session.prepareCommand(Session.java:402)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:72)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:276)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1122)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$2.doPrepare(StatementPreparerImpl.java:124)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:122)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.prepare(IdentityGenerator.java:89)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:55)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:114)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSaveOrUpdate(SessionImpl.java:684)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:676)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:671)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:356)
+	at com.sun.proxy.$Proxy77.saveOrUpdate(Unknown Source)
+	at io.dropwizard.hibernate.AbstractDAO.persist(AbstractDAO.java:149)
+	at com.LetsGetDigital.dao.SearchCriteriaDao.save(SearchCriteriaDao.java:18)
+	at com.LetsGetDigital.dao.SearchCriteriaDaoTest.testSaveSearchCriteria(SearchCriteriaDaoTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-03-19 01:23:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "DROPPOFFLOCATION" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, pickupLocation, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42122-190]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:660)
+	at org.h2.command.Parser.parseColumn(Parser.java:855)
+	at org.h2.command.Parser.parseColumnList(Parser.java:839)
+	at org.h2.command.Parser.parseInsert(Parser.java:1039)
+	at org.h2.command.Parser.parsePrepared(Parser.java:400)
+	at org.h2.command.Parser.parse(Parser.java:304)
+	at org.h2.command.Parser.parse(Parser.java:276)
+	at org.h2.command.Parser.prepareCommand(Parser.java:241)
+	at org.h2.engine.Session.prepareLocal(Session.java:460)
+	at org.h2.engine.Session.prepareCommand(Session.java:402)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:72)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:276)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1122)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$2.doPrepare(StatementPreparerImpl.java:124)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:122)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.prepare(IdentityGenerator.java:89)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:55)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:114)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSaveOrUpdate(SessionImpl.java:684)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:676)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:671)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:356)
+	at com.sun.proxy.$Proxy77.saveOrUpdate(Unknown Source)
+	at io.dropwizard.hibernate.AbstractDAO.persist(AbstractDAO.java:149)
+	at com.LetsGetDigital.dao.SearchCriteriaDao.save(SearchCriteriaDao.java:18)
+	at com.LetsGetDigital.dao.SearchCriteriaDaoTest.testSaveSearchCriteria(SearchCriteriaDaoTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-03-19 01:23:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "DROPPOFFLOCATION" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, pickupLocation, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42122-190]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:660)
+	at org.h2.command.Parser.parseColumn(Parser.java:855)
+	at org.h2.command.Parser.parseColumnList(Parser.java:839)
+	at org.h2.command.Parser.parseInsert(Parser.java:1039)
+	at org.h2.command.Parser.parsePrepared(Parser.java:400)
+	at org.h2.command.Parser.parse(Parser.java:304)
+	at org.h2.command.Parser.parse(Parser.java:276)
+	at org.h2.command.Parser.prepareCommand(Parser.java:241)
+	at org.h2.engine.Session.prepareLocal(Session.java:460)
+	at org.h2.engine.Session.prepareCommand(Session.java:402)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:72)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:276)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1122)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$2.doPrepare(StatementPreparerImpl.java:124)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:122)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.prepare(IdentityGenerator.java:89)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:55)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:114)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSaveOrUpdate(SessionImpl.java:684)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:676)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:671)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:356)
+	at com.sun.proxy.$Proxy77.saveOrUpdate(Unknown Source)
+	at io.dropwizard.hibernate.AbstractDAO.persist(AbstractDAO.java:149)
+	at com.LetsGetDigital.dao.SearchCriteriaDao.save(SearchCriteriaDao.java:18)
+	at com.LetsGetDigital.dao.SearchCriteriaDaoTest.testSaveSearchCriteria(SearchCriteriaDaoTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-03-19 01:23:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "DROPPOFFLOCATION" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, pickupLocation, toDate) values (null, ?, ?, ?, ?, ?, ?, ?) [42122-190]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:660)
+	at org.h2.command.Parser.parseColumn(Parser.java:855)
+	at org.h2.command.Parser.parseColumnList(Parser.java:839)
+	at org.h2.command.Parser.parseInsert(Parser.java:1039)
+	at org.h2.command.Parser.parsePrepared(Parser.java:400)
+	at org.h2.command.Parser.parse(Parser.java:304)
+	at org.h2.command.Parser.parse(Parser.java:276)
+	at org.h2.command.Parser.prepareCommand(Parser.java:241)
+	at org.h2.engine.Session.prepareLocal(Session.java:460)
+	at org.h2.engine.Session.prepareCommand(Session.java:402)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:72)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:276)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1122)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$2.doPrepare(StatementPreparerImpl.java:124)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:122)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.prepare(IdentityGenerator.java:89)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:55)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:114)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSaveOrUpdate(SessionImpl.java:684)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:676)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:671)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:356)
+	at com.sun.proxy.$Proxy77.saveOrUpdate(Unknown Source)
+	at io.dropwizard.hibernate.AbstractDAO.persist(AbstractDAO.java:149)
+	at com.LetsGetDigital.dao.SearchCriteriaDao.save(SearchCriteriaDao.java:18)
+	at com.LetsGetDigital.dao.SearchCriteriaDaoTest.testSaveSearchCriteria(SearchCriteriaDaoTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-03-19 01:25:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "DROPPOFFLOCATION" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?, ?) [42122-190]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:660)
+	at org.h2.command.Parser.parseColumn(Parser.java:855)
+	at org.h2.command.Parser.parseColumnList(Parser.java:839)
+	at org.h2.command.Parser.parseInsert(Parser.java:1039)
+	at org.h2.command.Parser.parsePrepared(Parser.java:400)
+	at org.h2.command.Parser.parse(Parser.java:304)
+	at org.h2.command.Parser.parse(Parser.java:276)
+	at org.h2.command.Parser.prepareCommand(Parser.java:241)
+	at org.h2.engine.Session.prepareLocal(Session.java:460)
+	at org.h2.engine.Session.prepareCommand(Session.java:402)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:72)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:276)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1122)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$2.doPrepare(StatementPreparerImpl.java:124)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:122)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.prepare(IdentityGenerator.java:89)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:55)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:114)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSaveOrUpdate(SessionImpl.java:684)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:676)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:671)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:356)
+	at com.sun.proxy.$Proxy77.saveOrUpdate(Unknown Source)
+	at io.dropwizard.hibernate.AbstractDAO.persist(AbstractDAO.java:149)
+	at com.LetsGetDigital.dao.SearchCriteriaDao.save(SearchCriteriaDao.java:18)
+	at com.LetsGetDigital.dao.SearchCriteriaDaoTest.testSaveSearchCriteria(SearchCriteriaDaoTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-03-19 01:25:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "DROPPOFFLOCATION" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?, ?) [42122-190]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:660)
+	at org.h2.command.Parser.parseColumn(Parser.java:855)
+	at org.h2.command.Parser.parseColumnList(Parser.java:839)
+	at org.h2.command.Parser.parseInsert(Parser.java:1039)
+	at org.h2.command.Parser.parsePrepared(Parser.java:400)
+	at org.h2.command.Parser.parse(Parser.java:304)
+	at org.h2.command.Parser.parse(Parser.java:276)
+	at org.h2.command.Parser.prepareCommand(Parser.java:241)
+	at org.h2.engine.Session.prepareLocal(Session.java:460)
+	at org.h2.engine.Session.prepareCommand(Session.java:402)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:72)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:276)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1122)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$2.doPrepare(StatementPreparerImpl.java:124)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:122)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.prepare(IdentityGenerator.java:89)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:55)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:114)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSaveOrUpdate(SessionImpl.java:684)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:676)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:671)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:356)
+	at com.sun.proxy.$Proxy77.saveOrUpdate(Unknown Source)
+	at io.dropwizard.hibernate.AbstractDAO.persist(AbstractDAO.java:149)
+	at com.LetsGetDigital.dao.SearchCriteriaDao.save(SearchCriteriaDao.java:18)
+	at com.LetsGetDigital.dao.SearchCriteriaDaoTest.testSaveSearchCriteria(SearchCriteriaDaoTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-03-19 01:29:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-190]
+2016-03-19 01:29:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-19 01:29:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-19 01:30:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-19 01:30:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, droppOffLocation, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?, ?) [42102-190]
+2016-03-19 01:31:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?) [42102-190]
+2016-03-19 01:31:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?) [42102-190]
+2016-03-19 01:32:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?) [42102-190]
+2016-03-19 01:32:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence, dropOffTime, fromDate, pickUpTime, toDate) values (null, ?, ?, ?, ?, ?) [42102-190]
+2016-03-19 01:34:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence) values (null, ?) [42102-190]
+2016-03-19 01:34:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SEARCHCRITERIA" not found; SQL statement:
+insert into SearchCriteria (id, countryOfResidence) values (null, ?) [42102-190]
+2016-03-19 01:35:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-190]
+2016-03-19 16:26:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-190]
+2016-03-19 16:26:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-190]

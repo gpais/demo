@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+	<changeSet id="1" author="gpais">
+	
+		<createTable tableName="SearchCriteria">
+		     <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+			<column name="fromDate" type="DATE" />
+			<column name="toDate" type="DATE" />
+			<column name="pickupLocation" type="varchar(50)" />
+			<column name="droppOffLocation" type="varchar(50)" />
+			<column name="pickUpTime" type="varchar(50)" />
+			<column name="dropOffTime" type="varchar(50)" />
+			<column name="countryOfResidence" type="varchar(50)" />
+		</createTable>
+
+
+		<createTable tableName="Quote">
+		    <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+			<column name="searchCriteriaId" type="bigint" >
+			   <constraints nullable="false" foreignKeyName="fk_Quote_SearchCriteria" references="SearchCriteria(id)"/>
+			</column>
+		  <column name="reference" type="varchar(50)" />
+		  <column name="paymentModel" type="varchar(50)" />
+		  <column name="baseCurrency" type="varchar(50)" />
+		  <column name="paymentCurrency" type="varchar(50)" />
+		  <column name="total" type="DECIMAL" />
+		  <column name="exchangeRate" type="DECIMAL" />
+		  <column name="browseTotal" type="DECIMAL" />
+			
+		</createTable>
+		
+	</changeSet>
+</databaseChangeLog>
