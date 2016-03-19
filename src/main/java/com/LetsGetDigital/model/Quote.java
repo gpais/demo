@@ -2,6 +2,7 @@ package com.LetsGetDigital.model;
 
 import java.math.BigDecimal;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -20,15 +21,45 @@ import javax.persistence.Table;
     @NamedQuery(
             name = "com.LetsGetDigital.model.Quote.findAll",
             query = "FROM Quote q"
+    ),
+    @NamedQuery(
+            name = "com.LetsGetDigital.model.Quote.findQuoteByReference",
+            query = "FROM Quote quote "
+            		+ " where quote.reference = :reference"
+    ),
+    @NamedQuery(
+            name = "com.LetsGetDigital.model.Quote.findBySearchCriteriaId",
+            query = "FROM Quote q"
+            		+ " left join fetch q.searchCriteria searchCriteria"
+            		+  " where searchCriteria.id = :searchCriteriaId"
+    ),
+    @NamedQuery(
+            name = "com.LetsGetDigital.model.Quote.findBySearchCriteria",
+            query = "FROM Quote q"
+            		+ " left join fetch q.searchCriteria searchCriteria"
+            		+  " where "
+            		+ " searchCriteria.fromDate = :fromDate"
+            		+ " and searchCriteria.toDate = :toDate"
+            		+ " and searchCriteria.pickupLocation = :pickupLocation"
+            		+ " and searchCriteria.droppOffLocation = :droppOffLocation"
+            		+ " and searchCriteria.pickUpTime = :pickUpTime"
+            		+ " and searchCriteria.dropOffTime = :dropOffTime"
+            		+ " and searchCriteria.countryOfResidence = :countryOfResidence"
+
     )
 })
+
 public class Quote {
 	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @ManyToOne
+    public Long getId() {
+		return id;
+	}
+
+	@ManyToOne
     @JoinColumn(name="searchCriteriaId")
     private SearchCriteria searchCriteria;
 

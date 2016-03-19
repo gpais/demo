@@ -47,25 +47,43 @@ public class Facade {
 		return Converter.convertTo(searchCriteria);
 	}
 
+	public QuotesResult getQuoteByReference(String reference){
+    	QuotesResult result = new QuotesResult();
+		Quote quote = this.quotesDao.findQuoteByReference(reference);
+		result.setSearchCriteria(Converter.convertTo(quote.getSearchCriteria()));
+		result.setQuotes(new ArrayList<QuoteDto>());
+		result.getQuotes().add(Converter.convertTo(quote));
+    	return result;
+		
+	}
 	public QuotesResult getQuotes(SearchCriteriaDto search) {
     	QuotesResult result = new QuotesResult();
     	result.setSearchCriteria(search);
-    	
-    	SearchCriteria searchModel = Converter.convertFrom(search);
-    	this.searchCriteriaDao.save(searchModel);
-    	
     	Function<List<Quote>, List<QuoteDto>> convertToDtos = a->{
     		List<QuoteDto> quoteDtos= new ArrayList<>();
     		a.stream()
     		.forEach(b-> {
-    			this.quotesDao.save(b);
+    			if(b.getId() == null){
+    				this.quotesDao.save(b);
+    			}
     			quoteDtos.add(Converter.convertTo(b));
     			
     		});
     		return quoteDtos;
     	};
     	
-    	result.setQuotes(convertToDtos.apply(this.quotationEngine.getQuotes(searchModel)));
+    	List<Quote> quotes=quotesDao.findAllBySearchCriteria(Converter.convertFrom(search));
+
+    	if(quotes != null && quotes.size() != 0){
+        	result.setQuotes(convertToDtos.apply(quotes));
+        	return result;
+    	}
+    	
+    	SearchCriteria searchModel = Converter.convertFrom(search);
+    	this.searchCriteriaDao.save(searchModel);
+    	quotes=this.quotationEngine.getQuotes(searchModel);
+    	
+    	result.setQuotes(convertToDtos.apply(quotes));
     	return result;
     }
 

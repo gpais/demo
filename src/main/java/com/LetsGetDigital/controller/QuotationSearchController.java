@@ -6,6 +6,7 @@ import java.util.Calendar;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
@@ -31,12 +32,14 @@ public class QuotationSearchController {
 		this.facade=facade;
 }
 
-//	@javax.ws.rs.GET
-//    @Path("/{id}")
-//	@UnitOfWork
-//    public TicketDto getTickets(@PathParam("id") String ticketId) {
-//        return ticketService.getTickets(ticketId);
-//    }	
+
+	
+	@javax.ws.rs.GET
+    @Path("/quotes/{reference}")
+	@UnitOfWork
+    public QuotesResult getQuotes(@PathParam("reference") String reference) {
+        return this.facade.getQuoteByReference(reference);
+    }
 	
 	
 	@javax.ws.rs.POST

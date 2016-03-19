@@ -95,4 +95,64 @@ public SearchCriteriaDto getSearchCriteriaDto(){
 //       assertThat(ticket.getId()).isEqualTo(ticketDto.getId());
 
     }
+    
+    
+    @Test
+    public void SearchForQuoteAfterSave() throws Exception {
+    	SearchCriteriaDto searchCriteriaDto = getSearchCriteriaDto();
+        final QuotesResult result = client.target("http://localhost:" + RULE.getLocalPort() + "/search/quotes")
+               .request()
+               .post(Entity.entity(searchCriteriaDto, MediaType.APPLICATION_JSON_TYPE))
+               .readEntity(QuotesResult.class);
+        
+       assertThat(result.getSearchCriteria()).isEqualTo(searchCriteriaDto);
+ 	   assertEquals(10, result.getQuotes().size());
+
+    }
+    
+    
+    @Test
+    public void SearchForQuoteReferenceAfterSave() throws Exception {
+    	SearchCriteriaDto searchCriteriaDto = getSearchCriteriaDto();
+         QuotesResult result = client.target("http://localhost:" + RULE.getLocalPort() + "/search/quotes")
+               .request()
+               .post(Entity.entity(searchCriteriaDto, MediaType.APPLICATION_JSON_TYPE))
+               .readEntity(QuotesResult.class);
+        
+       assertThat(result.getSearchCriteria()).isEqualTo(searchCriteriaDto);
+ 	   assertEquals(10, result.getQuotes().size());
+ 	   
+ 	      result = client.target("http://localhost:" + RULE.getLocalPort() + "/search/quotes")
+ 	    		   .path(result.getQuotes().get(0).getReference())
+ 	               .request()
+ 	               .get()
+ 	               .readEntity(QuotesResult.class);
+ 	     
+ 	     assertThat(result.getSearchCriteria()).isEqualTo(searchCriteriaDto);
+ 	 	 assertEquals(1, result.getQuotes().size());
+ 	   
+
+    }
+    
+    @Test
+    public void SearchForQuoteAfterSaveQuotes() throws Exception {
+    	SearchCriteriaDto searchCriteriaDto = getSearchCriteriaDto();
+         QuotesResult result = client.target("http://localhost:" + RULE.getLocalPort() + "/search/quotes")
+               .request()
+               .post(Entity.entity(searchCriteriaDto, MediaType.APPLICATION_JSON_TYPE))
+               .readEntity(QuotesResult.class);
+        
+       assertThat(result.getSearchCriteria()).isEqualTo(searchCriteriaDto);
+ 	   assertEquals(10, result.getQuotes().size());
+ 	   
+ 	     result = client.target("http://localhost:" + RULE.getLocalPort() + "/search/quotes")
+                .request()
+                .post(Entity.entity(searchCriteriaDto, MediaType.APPLICATION_JSON_TYPE))
+                .readEntity(QuotesResult.class);
+         
+        assertThat(result.getSearchCriteria()).isEqualTo(searchCriteriaDto);
+  	   assertEquals(10, result.getQuotes().size());
+
+    }
+    
 }
