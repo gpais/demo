@@ -139,7 +139,7 @@ public SearchCriteriaDto getSearchCriteriaDto(){
     	SearchCriteriaDto searchCriteriaDto = getSearchCriteriaDto();
          QuotesResult result = client.target("http://localhost:" + RULE.getLocalPort() + "/search/quotes")
                .request()
-               .post(Entity.entity(searchCriteriaDto, MediaType.APPLICATION_JSON_TYPE))
+               .post(Entity.entity(searchCriteriaDto, MediaType.APPLICATION_JSON))
                .readEntity(QuotesResult.class);
         
        assertThat(result.getSearchCriteria()).isEqualTo(searchCriteriaDto);
@@ -147,7 +147,7 @@ public SearchCriteriaDto getSearchCriteriaDto(){
  	   
  	     result = client.target("http://localhost:" + RULE.getLocalPort() + "/search/quotes")
                 .request()
-                .post(Entity.entity(searchCriteriaDto, MediaType.APPLICATION_JSON_TYPE))
+                .post(Entity.entity(searchCriteriaDto, MediaType.APPLICATION_JSON))
                 .readEntity(QuotesResult.class);
          
         assertThat(result.getSearchCriteria()).isEqualTo(searchCriteriaDto);

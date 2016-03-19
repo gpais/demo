@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
+import com.LetsGetDigital.model.PaymentModel;
 import com.LetsGetDigital.model.Quote;
 import com.LetsGetDigital.model.SearchCriteria;
 
@@ -25,6 +26,7 @@ public class QuotationEngine {
 				quote.setTotal(new BigDecimal(130.50));
 				quote.setBrowseTotal(new BigDecimal(130.50));
 				quote.setExchangeRate(new BigDecimal(1.00));
+				quote.setPaymentModel(PaymentModel.PrePaid);
 				quotes.add(quote);
 			}
 			return quotes;
