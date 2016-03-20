@@ -41,6 +41,7 @@ public class DAOTests {
 
     @BeforeClass
     public static void migrateDb() throws Exception {
+        RULE.getApplication().run("db", "drop-all","--confirm-delete-everything", CONFIG_PATH);
     }
 
     private static String createTempFile() {
