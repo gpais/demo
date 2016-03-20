@@ -12,6 +12,7 @@ docker login
 docker build -t gpaishubid/sample .
 
 docker push gpaishubid/sample
+docker pull  gpaishubid/sample
 
 docker run -p 80:80 gpaishubid/sample
 
