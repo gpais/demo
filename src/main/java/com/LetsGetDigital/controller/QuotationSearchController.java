@@ -17,6 +17,7 @@ import com.LetsGetDigital.dto.QuotesResult;
 import com.LetsGetDigital.dto.SearchCriteriaDto;
 import com.LetsGetDigital.model.Quote;
 import com.LetsGetDigital.model.SearchCriteria;
+import com.google.inject.Inject;
 
 
 @Path("/search")
@@ -28,6 +29,8 @@ public class QuotationSearchController {
 
 	
 	
+	
+	@Inject
 	public QuotationSearchController(Facade facade){
 		this.facade=facade;
 }

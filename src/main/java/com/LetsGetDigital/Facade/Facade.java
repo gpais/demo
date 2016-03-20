@@ -15,6 +15,7 @@ import com.LetsGetDigital.engine.QuotationEngine;
 import com.LetsGetDigital.model.Quote;
 import com.LetsGetDigital.model.SearchCriteria;
 import com.LetsGetDigital.util.Converter;
+import com.google.inject.Inject;
 
 public class Facade {
 
@@ -22,6 +23,7 @@ public class Facade {
 	private QuotesDao quotesDao;
 	private QuotationEngine quotationEngine;
 
+	@Inject
 	public Facade(QuotationEngine quotationEngine,
 			SearchCriteriaDao searchCriteriaDao, QuotesDao quotesDao) {
 		this.searchCriteriaDao = searchCriteriaDao;

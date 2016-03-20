@@ -8,9 +8,11 @@ import org.hibernate.SessionFactory;
 
 import com.LetsGetDigital.model.Quote;
 import com.LetsGetDigital.model.SearchCriteria;
+import com.google.inject.Inject;
 
 public class QuotesDao extends AbstractDAO<Quote>{
 
+	@Inject
 	public QuotesDao(SessionFactory sessionFactory) {
 		super(sessionFactory);
 	}

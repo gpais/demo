@@ -16,59 +16,55 @@ import com.LetsGetDigital.dao.SearchCriteriaDao;
 import com.LetsGetDigital.engine.QuotationEngine;
 import com.LetsGetDigital.model.Quote;
 import com.LetsGetDigital.model.SearchCriteria;
-
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 
 public class Apllication extends Application<LetGetDigitalConfiguration> {
 
-	
-  
-            
-            
-        	
-            private final HibernateBundle<LetGetDigitalConfiguration> hibernateBundle =
-                    new HibernateBundle<LetGetDigitalConfiguration>(SearchCriteria.class,Quote.class) {
-                        @Override
-                        public DataSourceFactory getDataSourceFactory(LetGetDigitalConfiguration configuration) {
-                            return configuration.getDatabase();
-                        }
-                    };
-                    
-    public static void main(final String[] args) throws Exception {
-        new Apllication().run(args);
-    }
+	private final HibernateBundle<LetGetDigitalConfiguration> hibernateBundle = new HibernateBundle<LetGetDigitalConfiguration>(
+			SearchCriteria.class, Quote.class) {
+		@Override
+		public DataSourceFactory getDataSourceFactory(
+				LetGetDigitalConfiguration configuration) {
+			return configuration.getDatabase();
+		}
+	};
 
-    @Override
-    public String getName() {
-        return "LetsGetDIgitalApllication";
-    }
+	public static void main(final String[] args) throws Exception {
+		new Apllication().run(args);
+	}
 
-    @Override
-    public void initialize(final Bootstrap<LetGetDigitalConfiguration> bootstrap) {
-    	
-     	bootstrap.addBundle(new MigrationsBundle<LetGetDigitalConfiguration>() {
-    		@Override
-    		public DataSourceFactory getDataSourceFactory(LetGetDigitalConfiguration configuration) {
-    			return configuration.getDatabase();
-    		}
-    	});
-     	
-    	
-        bootstrap.addBundle(hibernateBundle);
-        
-    }
+	@Override
+	public String getName() {
+		return "LetsGetDIgitalApllication";
+	}
 
-    @Override
-    public void run(final LetGetDigitalConfiguration configuration, final Environment environment) {
-    	SessionFactory factory = hibernateBundle.getSessionFactory();
-    	Facade facade = new Facade( new QuotationEngine(),
-        		new SearchCriteriaDao(factory),
-        		new QuotesDao(factory));
-        		
-        environment.jersey().register(
-                new QuotationSearchController(facade)
-        		
-        		);
+	@Override
+	public void initialize(final Bootstrap<LetGetDigitalConfiguration> bootstrap) {
 
-    }
+		
+		bootstrap.addBundle(new MigrationsBundle<LetGetDigitalConfiguration>() {
+			@Override
+			public DataSourceFactory getDataSourceFactory(
+					LetGetDigitalConfiguration configuration) {
+				return configuration.getDatabase();
+			}
+		});
+
+		bootstrap.addBundle(hibernateBundle);
+
+	}
+
+ 
+    
+	@Override
+	public void run(final LetGetDigitalConfiguration configuration,	final Environment environment) {
+		
+		SessionFactory factory = hibernateBundle.getSessionFactory();
+		Injector injector = Guice.createInjector(new ServerModule(factory)); 
+          
+		environment.jersey().register(injector.getInstance(QuotationSearchController.class));
+
+	}
 
 }
