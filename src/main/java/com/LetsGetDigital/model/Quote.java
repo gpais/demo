@@ -73,6 +73,7 @@ public class Quote {
     private String paymentCurrency;
     private BigDecimal exchangeRate;
     private BigDecimal browseTotal;
+    private CarType cartype;
     
     public String getReference() {
 		return reference;
@@ -139,6 +140,14 @@ public class Quote {
 
 	public void setSearchCriteria(SearchCriteria searchCriteria) {
 		this.searchCriteria = searchCriteria;
+	}
+
+	public CarType getCartype() {
+		return cartype;
+	}
+
+	public void setCartype(CarType cartype) {
+		this.cartype = cartype;
 	}
     
     

@@ -4,6 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import com.LetsGetDigital.dto.CarTypeDto;
 import com.LetsGetDigital.dto.QuoteDto;
 import com.LetsGetDigital.dto.SearchCriteriaDto;
 import com.LetsGetDigital.model.Quote;
@@ -62,6 +63,9 @@ public class Converter {
 		dto.setBrowseTotal(quote.getBrowseTotal());
 		dto.setPaymentModel(quote.getPaymentModel());
 		dto.setExchangeRate(quote.getExchangeRate());
+		dto.setCarType(new CarTypeDto());
+		dto.getCarType().setSipp(quote.getCartype().getSipp());
+		dto.getCarType().setSupplier(quote.getCartype().getSupplier());
 		return dto;
 		
 		

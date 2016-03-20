@@ -35,6 +35,8 @@
 		  <column name="total" type="DECIMAL" />
 		  <column name="exchangeRate" type="DECIMAL" />
 		  <column name="browseTotal" type="DECIMAL" />
+		  <column name="sipp" type="varchar(50)" />
+		  <column name="supplier" type="varchar(50)" />
 			
 		</createTable>
 		

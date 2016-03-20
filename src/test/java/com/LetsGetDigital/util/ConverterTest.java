@@ -11,6 +11,7 @@ import org.junit.Test;
 
 import com.LetsGetDigital.dto.QuoteDto;
 import com.LetsGetDigital.dto.SearchCriteriaDto;
+import com.LetsGetDigital.model.CarType;
 import com.LetsGetDigital.model.PaymentModel;
 import com.LetsGetDigital.model.Quote;
 import com.LetsGetDigital.model.SearchCriteria;
@@ -47,6 +48,10 @@ public class ConverterTest {
 		quote.setBrowseTotal(new BigDecimal(130.50));
 		quote.setTotal(new BigDecimal(130.50));
         quote.setReference("TESTREF");
+        quote.setCartype(new CarType());
+        quote.getCartype().setSipp("EBMR");
+        quote.getCartype().setSupplier("AVIS");
+
 		return quote;
 	}
 	
@@ -81,6 +86,8 @@ public class ConverterTest {
 	 	   assertEquals("TESTREF", quoteDto.getReference());
 	 	   assertEquals(new BigDecimal(130.50), quoteDto.getBrowseTotal());
 	 	   assertEquals(new BigDecimal(130.50), quoteDto.getTotal());
+	 	   assertEquals("EBMR", quoteDto.getCarType().getSipp());
+	 	   assertEquals("AVIS", quoteDto.getCarType().getSupplier());
 
 	}
 	

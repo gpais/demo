@@ -15,7 +15,7 @@ public class QuoteDto  implements Serializable {
     private String paymentCurrency;
     private BigDecimal exchangeRate;
     private BigDecimal browseTotal;
-
+    private CarTypeDto carType;
     @JsonProperty
 	public String getReference() {
 		return reference;
@@ -67,6 +67,12 @@ public class QuoteDto  implements Serializable {
 	}
 	public void setBrowseTotal(BigDecimal browseTotal) {
 		this.browseTotal = browseTotal;
+	}
+	public CarTypeDto getCarType() {
+		return carType;
+	}
+	public void setCarType(CarTypeDto carType) {
+		this.carType = carType;
 	}
 	
 }
